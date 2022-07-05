@@ -14,10 +14,10 @@ function Header() {
                     <a>Home</a>
                 </Link>
                 <Link href="/">
-                    <a>Fotos</a>
+                    <a>Calendário</a>
                 </Link>
                 <Link href="/">
-                    <a>Vídeos</a>
+                    <a>Sobre</a>
                 </Link>
             </HeaderNav>
             <Link href="/">
@@ -27,10 +27,10 @@ function Header() {
             </Link>
             <HeaderNav>
                 <Link href="/">
-                    <a>Sobre</a>
+                    <a>Fotos</a>
                 </Link>
                 <Link href="/">
-                    <a>Calendário</a>
+                    <a>Vídeos</a>
                 </Link>
                 <Link href="/">
                     <a>Contato</a>

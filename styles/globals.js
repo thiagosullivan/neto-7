@@ -53,4 +53,7 @@ export default createGlobalStyle`
   .slider-wrapper {
     height: 90vh;
   }
+  .carousel .slide img {
+    width: auto !important;
+  }
 `;
