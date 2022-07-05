@@ -4,6 +4,7 @@ import CardFifa from '../components/CardFifa/CardFifa';
 import Header from '../components/Header/Header';
 import HeroSlider from '../components/HeroSlider/HeroSlider';
 import History from '../components/History/History';
+import VideosSection from '../components/VideosSection/VideosSection';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroSlider />
         <CardFifa />
         <History />
+        <VideosSection />
       </main>
 
       <footer>
