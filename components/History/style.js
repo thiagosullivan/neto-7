@@ -19,7 +19,9 @@ export const HistoryContainer = styled.section`
         .react-tabs__tab-list {
             display: flex;
             justify-content: center;
+            justify-content: space-between;
             align-items: top;
+            margin-bottom: 2rem;
         }
         .react-tabs__tab-list li {
             font-family: 'Audiowide', cursive;
@@ -32,8 +34,15 @@ export const HistoryContainer = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 10px 2rem;
+            margin: 0 10px;
             cursor: pointer;
+
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
         }
         .react-tabs__tab-list .react-tabs__tab--selected {
             border: 5px solid ${({theme}) => theme.secondary};
