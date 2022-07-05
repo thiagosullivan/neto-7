@@ -48,4 +48,9 @@ export default createGlobalStyle`
   .home {
     background-color: ${({ theme }) => theme.grey};
   }
+  .carousel-root,
+  .carousel.carousel-slider,
+  .slider-wrapper {
+    height: 90vh;
+  }
 `;
