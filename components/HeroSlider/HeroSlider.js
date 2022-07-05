@@ -2,11 +2,17 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import BannerOne from '../../assets/neto-banner-1.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { HeroSliderContainer } from './style';
+import { BannerText, HeroSliderContainer } from './style';
 
 function HeroSlider() {
   return (
     <HeroSliderContainer>
+        <BannerText>
+            <h1>
+                Nilson<br></br>
+                <span>Neto</span>
+            </h1>
+        </BannerText>
         <Carousel
             autoPlay
             infiniteLoop
@@ -18,10 +24,10 @@ function HeroSlider() {
             interval={1500}
         >
             <div>
-                <img alt="" src={BannerOne} />
+                <img alt="" src="https://raw.githubusercontent.com/thiagosullivan/neto-7/main/assets/neto-banner-1.png" />
             </div>
             <div>
-                <img alt="" src="https://cdn-1.motorsport.com/images/amp/2jXLAyN6/s1000/lewis-hamilton-mercedes-w13-1.jpg" />
+                <img alt="" src="https://raw.githubusercontent.com/thiagosullivan/neto-7/main/assets/neto-banner-1.png" />
             </div>
         </Carousel>
     </HeroSliderContainer>
